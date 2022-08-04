@@ -148,7 +148,7 @@ const projects = [
           techs: ["Vue", "Javascript", "Materialize CSS"],
         },
       ],
-      projectDetailsHeading: "Challenge",
+      projectDetailsHeading: "Description",
       projectDetails: [
         {
           id: 1,
@@ -185,7 +185,7 @@ const projects = [
           techs: ["Python", "PyQt5", "Google Book Api"],
         },
       ],
-      projectDetailsHeading: "Challenge",
+      projectDetailsHeading: "Description",
       projectDetails: [
         {
           id: 1,
@@ -222,12 +222,12 @@ const projects = [
           techs: ["Java", "JFreeCharts", "Swing"],
         },
       ],
-      projectDetailsHeading: "Challenge",
+      projectDetailsHeading: "Description",
       projectDetails: [
         {
           id: 1,
           details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+            "The goal of this application is to help people who regularly practice walking to visualize their walking times and distances. The design of this application was made in Java. I also conceived this application to learn how to master java and the MVC design pattern, because I had just been initiated to object-oriented programming at school.",
         },
       ],
     },
