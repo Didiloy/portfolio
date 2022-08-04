@@ -190,7 +190,7 @@ const projects = [
         {
           id: 1,
           details:
-            "I wanted an application capable of recommend books in function of what you've already read. So I implemented a search function using the google books api. You can add books that you've already read in your library, which is stocked in a json file on your machine. The application recommend books from the same author and of the same type of a random selected book in your library.",
+            "I wanted an application capable of suggest books in function of what you've already read. So I implemented a search function using the google books api. You can add books that you've already read in your library, which is stocked in a json file on your machine. The application recommend books from the same author and of the same type of a random selected book in your library.",
         },
       ],
     },
