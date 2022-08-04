@@ -58,6 +58,7 @@ const projects = [
       singleProjectTitle: "VBS (Vue Book Suggestion)",
       singleProjectDate: "2022",
       singleProjectTag: "Web Application",
+      singleProjectLink: "http://vue-book-suggestion.netlify.app",
     },
     projectImages: [
       {
