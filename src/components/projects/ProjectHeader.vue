@@ -12,7 +12,7 @@ export default {
     >
       {{ singleProjectHeader.singleProjectTitle }}
     </p>
-    <div class="flex">
+    <div class="flex flex-wrap">
       <div class="flex items-center mr-10">
         <i
           data-feather="clock"
