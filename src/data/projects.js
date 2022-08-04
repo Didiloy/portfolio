@@ -25,7 +25,7 @@ const projects = [
       },
       {
         id: 3,
-        title: "COMAC",
+        title: "AutoCadMDK",
         img: require("@/assets/images/autocadmdk3.png"),
       },
     ],
@@ -39,12 +39,12 @@ const projects = [
           techs: ["C#", "AutoCad SDK", ".NET Environment"],
         },
       ],
-      projectDetailsHeading: "Challenge",
+      projectDetailsHeading: "Description",
       projectDetails: [
         {
           id: 1,
           details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+            "I developed this project for the company Kadran Ingénierie as part of my internship at the end of my DUT. This project allowed me to learn the C# language and the .net environment. I could also discover the Autocad software and learn how to manipulate it through its sdk. I also used the autocad sdk to create objects and display them on the plan. I was able to manipulate excel and xml files via the C# language as well as make calls to remote api. It's a big project that helped me to perfect my mastery of object oriented programming.",
         },
       ],
     },
@@ -58,7 +58,6 @@ const projects = [
       singleProjectTitle: "VBS (Vue Book Suggestion)",
       singleProjectDate: "2022",
       singleProjectTag: "Web Application",
-      singleProjectLink: "http://vue-book-suggestion.netlify.app",
     },
     projectImages: [
       {
