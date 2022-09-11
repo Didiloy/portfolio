@@ -5,7 +5,7 @@ export default {
       bios: [
         {
           id: 1,
-          bio: "",
+          bio: "I am a student at the University of Poitiers in L3 Computer Science. Passionate about the world of information technology, I am a motivated and dedicated person in everything I do. I like to deepen the knowledge acquired in class by personal projects and discover new things in the same way.",
         },
       ],
     };
@@ -21,7 +21,7 @@ export default {
     </div>
 
     <!-- About details -->
-    <div class="w-full sm:w-3/4 text-left">
+    <div class="w-full sm:w-3/4 text-left flex items-center">
       <p
         v-for="bio in bios"
         :key="bio.id"
