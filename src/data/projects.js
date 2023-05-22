@@ -3,6 +3,54 @@
 
 const projects = [
   {
+    id: 6,
+    title: "DSRSSR",
+    category: "Simple RSS Reader",
+    img: require("@/assets/images/dsrssr.png"),
+    singleProjectHeader: {
+      singleProjectTitle: "DSRSSR",
+      singleProjectDate: "2023",
+      singleProjectTag: "Desktop Application",
+      singleProjectLink: "https://github.com/Didiloy/dsrssr",
+    },
+    projectImages: [
+      {
+        id: 1,
+        title: "DSRSSR",
+        img: require("@/assets/images/dsrssr.png"),
+      },
+      {
+        id: 2,
+        title: "DSRSSR",
+        img: require("@/assets/images/dsrssr1.png"),
+      },
+      {
+        id: 3,
+        title: "DSRSSR",
+        img: require("@/assets/images/dsrssr2.png"),
+      },
+    ],
+    projectInfo: {
+      objectivesHeading: "Objective",
+      objectivesDetails:
+        "Create simple RSS reader to get used to the GTK toolkit",
+      technologies: [
+        {
+          title: "Tools & Technologies",
+          techs: ["C#", "GTK3", ".NET Environment", "GtkSharp"],
+        },
+      ],
+      projectDetailsHeading: "Description",
+      projectDetails: [
+        {
+          id: 1,
+          details:
+            "I created this application because I wanted to learn how to use the GTK toolkit. I find the user interfaces produced with this tool very beautiful and I wanted to create one too. I also wanted to use C# because it's a language I like to work with, so I looked for a wrapper that would allow me to use this language with GTK. I decided to make a simple RSS reader because I find existing applications complex and full of features too advanced for a user who only wants a platform to gather his favorite feeds.",
+        },
+      ],
+    },
+  },
+  {
     id: 1,
     title: "AutoCadMDK",
     category: "Class Library for AutoCad",
