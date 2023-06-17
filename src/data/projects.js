@@ -3,9 +3,57 @@
 
 const projects = [
   {
+    id: 7,
+    title: "SpotWrap",
+    category: "Desktop Application",
+    img: require("@/assets/images/spotwrap.png"),
+    singleProjectHeader: {
+      singleProjectTitle: "SpotWrap",
+      singleProjectDate: "2023",
+      singleProjectTag: "Desktop Application",
+      singleProjectLink: "https://github.com/Didiloy/spotwrap",
+    },
+    projectImages: [
+      {
+        id: 1,
+        title: "SpotWrap",
+        img: require("@/assets/images/spotwrap.png"),
+      },
+      {
+        id: 2,
+        title: "SpotWrap",
+        img: require("@/assets/images/spotwrap2.png"),
+      },
+      {
+        id: 3,
+        title: "SpotWrap",
+        img: require("@/assets/images/spotwrap3.png"),
+      },
+    ],
+    projectInfo: {
+      objectivesHeading: "Objective",
+      objectivesDetails:
+        "Create a cross platform graphical wrapper around Spotdl and Savify",
+      technologies: [
+        {
+          title: "Tools & Technologies",
+          techs: ["Python", "PySide6", "PyInstaller", "QT"],
+        },
+      ],
+      projectDetailsHeading: "Description",
+      projectDetails: [
+        {
+          id: 1,
+          details:
+            "I created this application because I personally use Spotdl to download music. Spotdl is a command-line based application and I wanted a graphical version to simplify the process. I chose to use the QT framework because I wanted to create a cross-platform application. I really wanted the application to be cross-platform because I wanted everyone to be able to use it. I used Python because that's the language Spotdl is written in. You can choose the file format you want to download and the quality of the music. You can also choose the folder in which the files will be downloaded.",
+        },
+      ],
+    },
+  },
+  {
     id: 6,
     title: "DSRSSR",
-    category: "Simple RSS Reader",
+    category: "Desktop Application",
     img: require("@/assets/images/dsrssr.png"),
     singleProjectHeader: {
       singleProjectTitle: "DSRSSR",
