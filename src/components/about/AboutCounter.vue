@@ -27,7 +27,6 @@ export default {
           :endAmount="4"
           :duration="1"
           :autoinit="true"
-          @finished="alert(`Counting finished!`)"
           class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
           aria-label="About Status Counter"
         />
@@ -44,7 +43,6 @@ export default {
           :endAmount="8"
           :duration="1"
           :autoinit="true"
-          @finished="alert(`Counting finished!`)"
           class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
         />
         <span class="block text-md text-ternary-dark dark:text-ternary-light">

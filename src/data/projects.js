@@ -1,7 +1,76 @@
 // Projects data.
-// Note: Here we are getting data from a js file, but in a different project I'll be fetching these projects from some srt of APIs.
 
 const projects = [
+  {
+    id: 8,
+    title: "GameClock",
+    category: "Desktop Application",
+    img: require("@/assets/images/gameclock1.png"),
+    singleProjectHeader: {
+      singleProjectTitle: "GameClock",
+      singleProjectDate: "2024",
+      singleProjectTag: "Desktop Application",
+      singleProjectLink: "https://github.com/Didiloy/Gameclock",
+    },
+    projectImages: [
+      {
+        id: 1,
+        title: "GameClock",
+        img: require("@/assets/images/gameclock1.png"),
+      },
+      {
+        id: 2,
+        title: "GameClock",
+        img: require("@/assets/images/gameclock2.png"),
+      },
+      {
+        id: 3,
+        title: "GameClock",
+        img: require("@/assets/images/gameclock3.png"),
+      },
+      {
+        id: 4,
+        title: "GameClock",
+        img: require("@/assets/images/gameclock4.png"),
+      },
+      {
+        id: 5,
+        title: "GameClock",
+        img: require("@/assets/images/gameclock5.png"),
+      },
+      {
+        id: 6,
+        title: "GameClock",
+        img: require("@/assets/images/gameclock6.png"),
+      },
+    ],
+    projectInfo: {
+      objectivesHeading: "Objective",
+      objectivesDetails:
+        "Create a cross platform desktop application to have statistics about my playtime",
+      technologies: [
+        {
+          title: "Tools & Technologies",
+          techs: [
+            "Vue",
+            "Firebase",
+            "Electron",
+            "Vite",
+            "PrimeVue",
+            "SteamGridDB API",
+          ],
+        },
+      ],
+      projectDetailsHeading: "Description",
+      projectDetails: [
+        {
+          id: 1,
+          details:
+            "I created this application because I wanted to know how much time I was spending gaming. I also wanted to know which games I was playing the most ? By myself or with friends ? Was I enjoying it or not ? And a ton of other statistics. I used Vue because it's a framework I'm comfortable with and with Electron it's easy to create cross platform desktop applications. I used Firebase to store the data because it have a generous free plan and everyone with a google account can create their own database to use in the app. You can add games to the application and start a timer when you start playing, when you finished you simply stop the timer and enter a new session !",
+        },
+      ],
+    },
+  },
   {
     id: 7,
     title: "SpotWrap",
