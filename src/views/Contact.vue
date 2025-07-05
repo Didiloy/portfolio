@@ -14,11 +14,11 @@ export default {
           name: "dylan.loya@proton.me",
           icon: "mail",
         },
-        {
-          id: 2,
-          name: "06 42 34 78 55",
-          icon: "phone",
-        },
+        // {
+        //   id: 2,
+        //   name: "",
+        //   icon: "phone",
+        // },
         {
           id: 3,
           name: "https://github.com/Didiloy",

@@ -7,7 +7,7 @@ export default {
   data: () => {
     return {
       experienceTitle: "Years of experience",
-      projectsTitle: "Projects completed",
+      projectsTitle: "Personnal projects completed",
     };
   },
 };
@@ -24,7 +24,7 @@ export default {
         <counter
           ref="counter"
           :startAmount="0"
-          :endAmount="4"
+          :endAmount="1"
           :duration="1"
           :autoinit="true"
           class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
@@ -40,7 +40,7 @@ export default {
         <counter
           ref="counter"
           :startAmount="0"
-          :endAmount="8"
+          :endAmount="9"
           :duration="1"
           :autoinit="true"
           class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"

@@ -2,6 +2,64 @@
 
 const projects = [
   {
+    id: 9,
+    title: "Spotwrap Next",
+    category: "Desktop Application",
+    img: require("@/assets/images/spotwrapnext/home.png"),
+    singleProjectHeader: {
+      singleProjectTitle: "Spotwrap Next",
+      singleProjectDate: "2025",
+      singleProjectTag: "Desktop Application",
+      singleProjectLink: "https://github.com/Didiloy/spotwrap-next",
+    },
+    projectImages: [
+      {
+        id: 1,
+        title: "Spotwrap Next",
+        img: require("@/assets/images/spotwrapnext/home.png"),
+      },
+      {
+        id: 2,
+        title: "Spotwrap Next",
+        img: require("@/assets/images/spotwrapnext/search.png"),
+      },
+      {
+        id: 3,
+        title: "Spotwrap Next",
+        img: require("@/assets/images/spotwrapnext/album.png"),
+      },
+      {
+        id: 4,
+        title: "Spotwrap Next",
+        img: require("@/assets/images/spotwrapnext/artist.png"),
+      },
+      {
+        id: 5,
+        title: "Spotwrap Next",
+        img: require("@/assets/images/spotwrapnext/settings.png"),
+      },
+    ],
+    projectInfo: {
+      objectivesHeading: "Objective",
+      objectivesDetails:
+        "Create a cross platform desktop application to download music and have notifications when an artist release something new.",
+      technologies: [
+        {
+          title: "Tools & Technologies",
+          techs: ["Golang", "Wails", "Vue", "Vite", "Spotdl"],
+        },
+      ],
+      projectDetailsHeading: "Description",
+      projectDetails: [
+        {
+          id: 1,
+          details:
+            " I created this application because I wanted to download my favorite tracks from Spotify and never miss a release from the artists I follow. To make it happen, I chose Vue for the frontend and golang for the backend so it runs on Windows and Linux without hassle. Under the hood it talks to the Spotify Web API for search and all the songs data, and it uses a lightweight local database to remember your followed artists. Whenever an artist you’re tracking puts out something new, the app pushes a desktop notification. It can also automatically download the new songs in background mode.",
+        },
+      ],
+    },
+  },
+  {
     id: 8,
     title: "GameClock",
     category: "Desktop Application",
