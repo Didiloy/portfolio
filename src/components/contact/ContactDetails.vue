@@ -19,7 +19,8 @@ export default {
             class="w-5 text-gray-500 dark:text-gray-400 mr-4"
           ></i>
           <a
-            :href="contact.icon === 'github' ? contact.name : '#'"
+            v-if="contact.icon === 'github'"
+            :href="contact.name"
             class="text-lg mb-4 text-ternary-dark dark:text-ternary-light"
             :class="
               contact.icon === 'mail' || contact.icon === 'phone'
@@ -30,6 +31,16 @@ export default {
           >
             {{ contact.name }}
           </a>
+          <span
+            v-else
+            class="text-lg mb-4 text-ternary-dark dark:text-ternary-light"
+            :class="
+              contact.icon === 'mail' || contact.icon === 'phone'
+                ? 'cursor-pointer'
+                : ''
+            "
+            >{{ contact.name }}</span
+          >
         </li>
       </ul>
     </div>
